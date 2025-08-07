@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header Group",
@@ -8,7 +17,7 @@
         "9da20430-b562-46f1-9f28-e5592eeec567": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"message\" style=\"font-weight: 400;padding: 5px 15px;\">\nSave now: 50% <a href=\"#\">furniture &amp; kitchen <\/a> discount* | Order hotline: <a href=\"#\">1-(090)-123-ELLA<\/a>\n<\/div>",
+            "text": "<div class=\"message\" style=\"font-weight: 400;padding: 5px 15px;\">\nSave now: 50% <a href=\"#\">furniture &amp; kitchen </a> discount* | Order hotline: <a href=\"#\">1-(090)-123-ELLA</a>\n</div>",
             "btn_color": "#f84248",
             "btn_border_color": "#ffffff",
             "btn_bg_color": "#ffffff",
@@ -20,7 +29,6 @@
         "9da20430-b562-46f1-9f28-e5592eeec567"
       ],
       "settings": {
-        "enable_announcement": true,
         "layout": "slider",
         "enable_close": false,
         "color_text": "#ffffff",
@@ -32,7 +40,11 @@
         "arrow_active": false,
         "content_max_width": 38,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom": 0,
+        "padding_bottom_tablet": 0,
+        "padding_bottom_mobile": 0
       }
     },
     "d128316a-9eef-4ad8-9e41-3e9614db5ae2": {
@@ -41,7 +53,6 @@
         "sections--14682829619277__d128316a-9eef-4ad8-9e41-3e9614db5ae2-16808670863a7d2551-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Ella-black.webp",
             "logo_width": 70,
             "logo_text": "",
             "logo_font_size": 30,
@@ -53,7 +64,7 @@
         "sections--14682829619277__d128316a-9eef-4ad8-9e41-3e9614db5ae2-16808670863a7d2551-1": {
           "type": "text",
           "settings": {
-            "customer_service_text": "<ul><li><a href='collections\/all'>Shop<\/a><\/li><li><a href='collections\/all'>Inspiration<\/a><\/li><li><a href='collections\/all'>About<\/a><\/li><\/ul>",
+            "customer_service_text": "<ul><li><a href='collections/all'>Shop</a></li><li><a href='collections/all'>Inspiration</a></li><li><a href='collections/all'>About</a></li></ul>",
             "text_color": "#2d2d2d"
           }
         },
@@ -73,6 +84,9 @@
             "customer_color": "#232323",
             "show_wishlist": true,
             "wishlist_color": "#232323",
+            "show_wishlist_number": false,
+            "wishlist_color_item": "#ffffff",
+            "wishlist_bg_item": "#232323",
             "show_cart": true,
             "cart_color": "#232323",
             "cart_color_item": "#ffffff",
@@ -105,7 +119,6 @@
           "type": "logo",
           "settings": {
             "logo_position": "sticky_menu",
-            "logo": "shopify:\/\/shop_images\/Ella-black.webp",
             "logo_width": 70,
             "logo_width_fixed": 55,
             "logo_text": "",
@@ -118,7 +131,7 @@
         "sections--14682829619277__00c92468-4e6c-42f1-85ad-ba2b3977ed37-1680867093b1fbc19d-1": {
           "type": "main_menu",
           "settings": {
-            "menu": "main-menu-home-19",
+            "menu": "main-menu",
             "menu_top_spacing": 17,
             "menu_bottom_spacing": 17,
             "grid_gap_menu_item": 20,
@@ -164,6 +177,7 @@
             "show_search": false,
             "show_customer": false,
             "show_wishlist": false,
+            "show_wishlist_number": false,
             "show_cart": false,
             "text_font_size": 14,
             "show_language_currency_sticky": false,
@@ -171,13 +185,16 @@
             "show_customer_sticky": false,
             "show_wishlist_sticky": false,
             "show_cart_sticky": true,
+            "cart_icon": "1",
             "header_icons_color": "#232323",
             "header_icons_color_hover": "#232323",
             "header_icons_border_color": "rgba(0,0,0,0)",
             "header_icons_border_sticky_color": "rgba(0,0,0,0)",
             "cart_count_bubble_color": "#ffffff",
             "cart_count_bubble_bg": "#000000",
-            "cart_count_bubble_bg_gradient": ""
+            "cart_count_bubble_bg_gradient": "",
+            "wishlist_color_item": "#ffffff",
+            "wishlist_bg_item": "#232323"
           }
         },
         "752e4b98-3961-4a46-877e-adf41c8663b1": {
@@ -230,7 +247,6 @@
             "item": "New In",
             "column": 3,
             "show_banner_1": true,
-            "banner_1": "shopify:\/\/shop_images\/Layer_10.png",
             "banner_url_1": "",
             "show_product": true,
             "product_title": "Featured Products",
@@ -247,15 +263,13 @@
             "menu_text_left": "",
             "menu_text_left_sale": "",
             "show_banner_1": true,
-            "banner_1": "shopify:\/\/shop_images\/Layer_8.png",
             "banner_url_1": "",
             "show_banner_2": true,
-            "banner_2": "shopify:\/\/shop_images\/Layer_9.png",
             "banner_url_2": "",
             "show_az_brand": true,
             "az_brand_title": "Brand by Alphabet",
             "az_brand_link_text": "See All Brands",
-            "az_brand_url": "shopify:\/\/pages\/brands",
+            "az_brand_url": "shopify://pages/brands",
             "bg_mega_menu_bottom": "#f8f8f8",
             "az_brand_link_text_color": "#000000"
           }
@@ -268,10 +282,8 @@
             "item": "Trend",
             "column": 3,
             "show_banner_1": true,
-            "banner_1": "shopify:\/\/shop_images\/Layer_11.png",
             "banner_url_1": "",
             "show_banner_2": true,
-            "banner_2": "shopify:\/\/shop_images\/Layer_12.png",
             "banner_url_2": "",
             "show_banner_3": false,
             "banner_url_3": ""
@@ -298,7 +310,8 @@
         "sticky_header_width": "full",
         "enable_transparent": false,
         "transparent_color": "#ffffff",
-        "transparent_color_hover": "#ffffff"
+        "transparent_color_hover": "#ffffff",
+        "border_color": "rgba(0,0,0,0)"
       }
     },
     "header-mobile": {
@@ -307,25 +320,28 @@
         "7de2266e-0cd4-4fda-9f09-06f75a17f944": {
           "type": "menu",
           "settings": {
-            "color": "#232323"
+            "color": "#232323",
+            "menu_tab_bg": "#000000"
           }
         },
         "163e2cb5-14f2-4af6-9ac3-77193c082f53": {
           "type": "search",
           "settings": {
+            "icon": "1",
+            "popup_action": false,
             "color": "#232323"
           }
         },
         "550fbd21-75fb-4051-9dee-77d91b5239f0": {
           "type": "logo",
           "settings": {
-            "logo_mobile": "shopify:\/\/shop_images\/Ella-black.jpg",
             "logo_width_mobile": 70,
             "logo_text": "",
             "logo_font_size": 20,
             "logo_font_weight": "900",
             "logo_text_transform": "uppercase",
-            "logo_color": "#232323"
+            "logo_color": "#232323",
+            "alignment": "center"
           }
         },
         "20dae707-64c0-4ea3-a05e-561cae9836d8": {
@@ -339,6 +355,7 @@
           "type": "cart",
           "settings": {
             "icon": "2",
+            "show_cart_count_bubble": true,
             "color": "#232323",
             "color_bubble": "#ffffff",
             "bg_bubble": "#232323"
@@ -356,6 +373,9 @@
         "background": "#ffffff",
         "gradient": "",
         "sticky_header_type": "on_scroll",
+        "enable_transparent": false,
+        "transparent_color": "#ffffff",
+        "transparent_border_color": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
