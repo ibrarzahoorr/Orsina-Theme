@@ -135,7 +135,7 @@
             "menu_top_spacing": 17,
             "menu_bottom_spacing": 17,
             "grid_gap_menu_item": 20,
-            "alignment": "left",
+            "alignment": "center",
             "bg_mega_menu": "#ffffff",
             "bg_mega_menu_gradient": "",
             "lv_1_color": "#2d2d2d",
