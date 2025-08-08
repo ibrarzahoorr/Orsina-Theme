@@ -65,7 +65,7 @@
           "type": "text",
           "settings": {
             "customer_service_text": "<ul><li><a href=\"collections/all\">Shop</a></li><li><a href=\"collections/all\">Inspiration</a></li><li><a href=\"collections/all\">About</a></li></ul>",
-            "text_color": "#2d2d2d"
+            "text_color": "#000000"
           }
         },
         "sections--14682829619277__d128316a-9eef-4ad8-9e41-3e9614db5ae2-16808670863a7d2551-2": {
@@ -202,7 +202,7 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1400,
-            "item": "New In",
+            "item": "Furniture",
             "column": 5,
             "show_banner_1": false,
             "banner_url_1": "",
@@ -216,7 +216,7 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1400,
-            "item": "Product",
+            "item": "new in",
             "column": 5,
             "show_banner_1": false,
             "banner_url_1": "",
@@ -230,7 +230,7 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1200,
-            "item": "Shop",
+            "item": "Accessories",
             "column": 4,
             "show_banner_1": false,
             "banner_url_1": "",
@@ -244,49 +244,97 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1200,
-            "item": "New In",
+            "item": "Lighting",
             "column": 3,
-            "show_banner_1": true,
+            "show_banner_1": false,
             "banner_url_1": "",
-            "show_product": true,
+            "show_product": false,
             "product_title": "Featured Products",
-            "product_collection": "product-01-sample-furniture-and-footwear-for-sale"
+            "product_collection": ""
           }
         },
-        "ed98299a-9268-403d-a785-e7b75c132ae9": {
-          "type": "megamenu_style_4",
+        "megamenu_style_1_jrw6yc": {
+          "type": "megamenu_style_1",
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1200,
-            "item": "Collections",
-            "column": 5,
-            "menu_text_left": "",
-            "menu_text_left_sale": "",
-            "show_banner_1": true,
-            "banner_url_1": "",
-            "show_banner_2": true,
-            "banner_url_2": "",
-            "show_az_brand": true,
-            "az_brand_title": "Brand by Alphabet",
-            "az_brand_link_text": "See All Brands",
-            "az_brand_url": "shopify://pages/brands",
-            "bg_mega_menu_bottom": "#f8f8f8",
-            "az_brand_link_text_color": "#000000"
-          }
-        },
-        "1bc0cba0-edde-4b6b-9130-5ce8a8832ec5": {
-          "type": "megamenu_style_2",
-          "settings": {
-            "layout_block": "custom_width",
-            "header_custom_width_size": 1200,
-            "item": "Trend",
+            "item": "Bathe & Utility",
             "column": 3,
-            "show_banner_1": true,
+            "show_banner_1": false,
             "banner_url_1": "",
-            "show_banner_2": true,
-            "banner_url_2": "",
-            "show_banner_3": false,
-            "banner_url_3": ""
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
+          }
+        },
+        "megamenu_style_1_mLjBNC": {
+          "type": "megamenu_style_1",
+          "settings": {
+            "layout_block": "custom_width",
+            "header_custom_width_size": 1200,
+            "item": "Lighting",
+            "column": 3,
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
+          }
+        },
+        "megamenu_style_1_fgh8zm": {
+          "type": "megamenu_style_1",
+          "settings": {
+            "layout_block": "custom_width",
+            "header_custom_width_size": 1200,
+            "item": "kitchen & dining",
+            "column": 3,
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
+          }
+        },
+        "megamenu_style_1_eFVwaq": {
+          "type": "megamenu_style_1",
+          "settings": {
+            "layout_block": "custom_width",
+            "header_custom_width_size": 1200,
+            "item": "kids",
+            "column": 3,
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
+          }
+        },
+        "megamenu_style_1_Wgxxmg": {
+          "type": "megamenu_style_1",
+          "settings": {
+            "layout_block": "custom_width",
+            "header_custom_width_size": 1200,
+            "item": "sale",
+            "column": 3,
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
+          }
+        },
+        "megamenu_style_1_pNXtYH": {
+          "type": "megamenu_style_1",
+          "settings": {
+            "layout_block": "custom_width",
+            "header_custom_width_size": 1200,
+            "item": "Clearance",
+            "column": 3,
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
           }
         }
       },
@@ -298,8 +346,12 @@
         "727126bf-ad9b-4e9c-a344-9db9946a4772",
         "c0897142-24a2-42d9-861d-d63f53734b67",
         "97bf5e0c-a0f8-49fc-87ac-47872a781ef6",
-        "ed98299a-9268-403d-a785-e7b75c132ae9",
-        "1bc0cba0-edde-4b6b-9130-5ce8a8832ec5"
+        "megamenu_style_1_jrw6yc",
+        "megamenu_style_1_mLjBNC",
+        "megamenu_style_1_fgh8zm",
+        "megamenu_style_1_eFVwaq",
+        "megamenu_style_1_Wgxxmg",
+        "megamenu_style_1_pNXtYH"
       ],
       "settings": {
         "container": "1770",

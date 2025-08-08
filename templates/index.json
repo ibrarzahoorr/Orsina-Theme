@@ -15,6 +15,8 @@
         "1643107744958433a3-0": {
           "type": "image",
           "settings": {
+            "image_slide": "shopify://shop_images/banner03_50a434eb-b9a1-45d3-9e41-ab5978249269.jpg",
+            "image_slide_mb": "shopify://shop_images/2401008_liv_01.webp",
             "alignment": "left",
             "enable_custom_position": true,
             "custom_horizontal": "11",
