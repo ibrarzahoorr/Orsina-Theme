@@ -17,7 +17,7 @@
         "announcement_QwLpai": {
           "type": "announcement",
           "settings": {
-            "text": "Limited time only: <b>$299$49 Tovala Smart Oven</b>",
+            "text": "Enjoy Up to 40% Off on Selected Items – Limited Time Only",
             "btn_color": "#ffffff",
             "btn_border_color": "#ffffff",
             "btn_bg_color": "#ff691a",
@@ -32,7 +32,7 @@
         "layout": "slider",
         "enable_close": false,
         "color_text": "#ffffff",
-        "bg_color_text": "#ff691a",
+        "bg_color_text": "#a85a3b",
         "bg_color_text_gradient": "",
         "font_size_text": 14,
         "font_style_text": "normal",
@@ -54,7 +54,8 @@
           "type": "logo",
           "settings": {
             "logo_position": "always",
-            "logo_width": 115,
+            "logo": "shopify://shop_images/216x104_Logo_Orsina.png",
+            "logo_width": 125,
             "logo_width_fixed": 100,
             "logo_text": "",
             "logo_font_size": 50,
