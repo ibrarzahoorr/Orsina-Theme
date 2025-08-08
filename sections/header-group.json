@@ -229,7 +229,7 @@
         "megamenu_style_1_tN4CXG"
       ],
       "settings": {
-        "container": "1770",
+        "container": "full",
         "padding_full_width": 10,
         "header_layout_style": "style_2",
         "header_navigation_bg": "#ffffff",
