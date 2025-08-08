@@ -17,7 +17,6 @@
         "11123b56-052a-44d9-92a9-99ff0d94e08f": {
           "type": "Text",
           "settings": {
-            "image": "shopify://shop_images/free-shipping.png",
             "icon_type": "image",
             "icon": "",
             "icon_width": 30,
@@ -30,13 +29,18 @@
             "font_weight_text": "400",
             "font_style_text": "normal",
             "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">More Details</span>",
+            "font_size_des": 14,
+            "font_size_des_mb": 14,
+            "margin_bottom_description": 0,
+            "button": "",
+            "button_font_size": 14,
+            "button_font_size_mb": 12,
             "link": "shopify://collections"
           }
         },
         "313ec706-43f9-49fb-b68a-8d735aa89e15": {
           "type": "Text",
           "settings": {
-            "image": "shopify://shop_images/return.png",
             "icon_type": "image",
             "icon": "",
             "icon_width": 30,
@@ -49,13 +53,18 @@
             "font_weight_text": "400",
             "font_style_text": "normal",
             "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">More Details</span>",
+            "font_size_des": 14,
+            "font_size_des_mb": 14,
+            "margin_bottom_description": 0,
+            "button": "",
+            "button_font_size": 14,
+            "button_font_size_mb": 12,
             "link": ""
           }
         },
         "8981685a-32e8-4831-8cfb-b663454a581c": {
           "type": "Text",
           "settings": {
-            "image": "shopify://shop_images/callendar.png",
             "icon_type": "image",
             "icon": "",
             "icon_width": 30,
@@ -68,13 +77,18 @@
             "font_weight_text": "400",
             "font_style_text": "normal",
             "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">Find Out More</span>",
+            "font_size_des": 14,
+            "font_size_des_mb": 14,
+            "margin_bottom_description": 0,
+            "button": "",
+            "button_font_size": 14,
+            "button_font_size_mb": 12,
             "link": ""
           }
         },
         "6790f204-c27a-4a2a-ab5b-0892ddd938bd": {
           "type": "Text",
           "settings": {
-            "image": "shopify://shop_images/box.png",
             "icon_type": "image",
             "icon": "",
             "icon_width": 30,
@@ -87,6 +101,12 @@
             "font_weight_text": "400",
             "font_style_text": "normal",
             "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">Learn How</span>",
+            "font_size_des": 14,
+            "font_size_des_mb": 14,
+            "margin_bottom_description": 0,
+            "button": "",
+            "button_font_size": 14,
+            "button_font_size_mb": 12,
             "link": ""
           }
         }
@@ -101,10 +121,14 @@
         "container": "1770",
         "padding_full_width": 0,
         "policies_block_swipe_on_mobile": "slider",
+        "spacing_tablet": 15,
+        "spacing_mobile": 10,
         "policies_bg": "#e4e7e5",
         "policies_bg_gradient": "",
+        "border": "none",
+        "border_color": "#000000",
         "border_item": "none",
-        "item_color_border": "#000",
+        "item_color_border": "#000000",
         "align_items": "center",
         "text_align_items": "center",
         "enable_item_distance": false,
@@ -146,6 +170,7 @@
             "icon_size": 16,
             "icon_color": "",
             "content_spacing": 1,
+            "enable_custom_position_icon": false,
             "show_social": true,
             "social_heading": "",
             "enable_bg_social": false,
@@ -171,7 +196,7 @@
           "settings": {
             "custom_width": "16",
             "heading": "Shop",
-            "menu": "ella-6-shop",
+            "menu": "",
             "mg_bottom": 0
           }
         },
@@ -180,7 +205,7 @@
           "settings": {
             "custom_width": "16",
             "heading": "Further Info",
-            "menu": "ella-6-information",
+            "menu": "",
             "mg_bottom": 0
           }
         },
@@ -189,7 +214,7 @@
           "settings": {
             "custom_width": "16",
             "heading": "Customer Service",
-            "menu": "ella-6-customer-service",
+            "menu": "",
             "mg_bottom": 0
           }
         },
@@ -197,6 +222,8 @@
           "type": "newsletter_with_social",
           "settings": {
             "custom_width": "31",
+            "show_newsletter": true,
+            "hidden_input_field": false,
             "heading": "Newsletter Sign Up",
             "subtext": "<p>Receive our latest updates about our products & promotions.                            </p>",
             "mg_top_des": 10,
@@ -210,8 +237,8 @@
             "button_text": "Subscribe",
             "button_width": 150,
             "button_color": "#ffffff",
-            "button_color_border": "#2a6876",
-            "button_color_bg": "#2a6876",
+            "button_color_border": "#a85a3b",
+            "button_color_bg": "#a85a3b",
             "button_color_bg_gradient": "",
             "button_color_hover": "#ffffff",
             "button_color_border_hover": "#ffffff",
@@ -239,6 +266,22 @@
             "social_background_color_hover": "#ffffff",
             "social_background_color_gradient_hover": "",
             "social_box_hover_color": "#ffffff",
+            "show_app_store": false,
+            "top_spacing": 16,
+            "app_store_heading": "",
+            "heading_bottom_margin": 20,
+            "app_store_link_1": "",
+            "app_store_link_2": "",
+            "logo_margin_bottom": 28,
+            "content_subtext": "",
+            "phone_icon": "message_icon",
+            "show_phone_icon": false,
+            "phone_text": "",
+            "email_icon": "envelope_icon",
+            "show_email_icon": false,
+            "email_text": "",
+            "icon_size": 16,
+            "icon_color": "",
             "newsletter_margin_bottom": 45
           }
         },
@@ -255,6 +298,7 @@
             "show_copyright": true,
             "show_shop_name": false,
             "enable_layout_grid": true,
+            "text_fontsize": 14,
             "copyright_content": "<p>© 2022 Ella Demo. Powered by Shopify. Shopify Themes by HaloThemes.com</p>",
             "copyright_content_color": "#000000",
             "shop_name": "",
@@ -302,6 +346,7 @@
         "type_footer_heading_line_height": 24,
         "type_footer_heading_font_weight": "500",
         "type_footer_heading_text_transform": "capitalize",
+        "type_footer_heading_margin_bottom": 12,
         "type_footer_heading_letter_spacing": "0",
         "type_footer_link": "font_1",
         "type_footer_link_font_size": 14,
@@ -324,7 +369,10 @@
         "footer_top_text_align": "left",
         "footer_top_title_color": "#000000",
         "footer_top_color_link": "#000000",
-        "footer_top_color_link_hover": "#ededed"
+        "footer_top_color_link_hover": "#ededed",
+        "show_border_item": false,
+        "space_border_item": 65,
+        "footer_border_item": "#808080"
       }
     }
   },
