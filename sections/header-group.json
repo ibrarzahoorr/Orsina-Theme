@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header Group",
@@ -41,14 +50,27 @@
     "header_navigation_hamburger_m9VU9M": {
       "type": "header-navigation-hamburger",
       "blocks": {
+        "logo_DVCRYC": {
+          "type": "logo",
+          "settings": {
+            "logo_position": "always",
+            "logo_width": 115,
+            "logo_width_fixed": 100,
+            "logo_text": "",
+            "logo_font_size": 50,
+            "logo_font_weight": "400",
+            "logo_text_transform": "uppercase",
+            "logo_color": "#000000"
+          }
+        },
         "main_menu_fKPeXX": {
           "type": "main_menu",
           "settings": {
-            "menu": "main-menu-home-33",
+            "menu": "updated-menu",
             "menu_top_spacing": 27,
             "menu_bottom_spacing": 27,
             "grid_gap_menu_item": 18,
-            "alignment": "left",
+            "alignment": "center",
             "bg_mega_menu": "#ffffff",
             "bg_mega_menu_gradient": "",
             "lv_1_color": "#232323",
@@ -81,20 +103,6 @@
             "hot_label_color": "#ffffff",
             "hot_label_bg": "#ffbb49",
             "hot_label_bg_gradient": ""
-          }
-        },
-        "logo_DVCRYC": {
-          "type": "logo",
-          "settings": {
-            "logo_position": "always",
-            "logo": "shopify://shop_images/Vector_2.png",
-            "logo_width": 115,
-            "logo_width_fixed": 100,
-            "logo_text": "",
-            "logo_font_size": 50,
-            "logo_font_weight": "400",
-            "logo_text_transform": "uppercase",
-            "logo_color": "#000000"
           }
         },
         "header_icons_wQ3Jy8": {
@@ -143,13 +151,13 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1400,
-            "item": "Theme Demo",
+            "item": "New In",
             "column": 5,
             "show_banner_1": false,
             "banner_url_1": "",
             "show_product": false,
             "product_title": "Featured Products",
-            "product_collection": "apricot-glazed-chicken-breast-with-creamy-caesar-broccoli"
+            "product_collection": ""
           }
         },
         "megamenu_style_1_pqyexX": {
@@ -157,8 +165,8 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1400,
-            "item": "Shop",
-            "column": 4,
+            "item": "By Range",
+            "column": 5,
             "show_banner_1": false,
             "banner_url_1": "",
             "show_product": false,
@@ -171,7 +179,7 @@
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1400,
-            "item": "Product",
+            "item": "sale",
             "column": 5,
             "show_banner_1": false,
             "banner_url_1": "",
@@ -180,44 +188,48 @@
             "product_collection": ""
           }
         },
-        "megamenu_style_3_XWmdz9": {
-          "type": "megamenu_style_3",
+        "megamenu_style_1_QcfBCg": {
+          "type": "megamenu_style_1",
           "settings": {
             "layout_block": "custom_width",
             "header_custom_width_size": 1400,
-            "mega_tyle": "style1",
-            "item": "collections",
+            "item": "By Room",
             "column": 5,
-            "show_banner_1": true,
-            "banner_1": "shopify://shop_images/mega-menu-5-min.jpg",
-            "banner_url_1": "#",
-            "show_banner_2": true,
-            "banner_2": "shopify://shop_images/mega-menu-6-min.jpg",
-            "banner_url_2": "#",
-            "show_banner_3": true,
-            "banner_3": "shopify://shop_images/mega-menu-7-min.jpg",
-            "banner_url_3": "#",
-            "show_banner_4": true,
-            "banner_4": "shopify://shop_images/mega-menu-8-min.jpg",
-            "banner_url_4": "#",
-            "show_banner_5": true,
-            "banner_5": "shopify://shop_images/mega-menu-9-min.jpg",
-            "banner_url_5": "#"
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
+          }
+        },
+        "megamenu_style_1_tN4CXG": {
+          "type": "megamenu_style_1",
+          "settings": {
+            "layout_block": "custom_width",
+            "header_custom_width_size": 1400,
+            "item": "By Category",
+            "column": 5,
+            "show_banner_1": false,
+            "banner_url_1": "",
+            "show_product": false,
+            "product_title": "Featured Products",
+            "product_collection": ""
           }
         }
       },
       "block_order": [
-        "main_menu_fKPeXX",
         "logo_DVCRYC",
+        "main_menu_fKPeXX",
         "header_icons_wQ3Jy8",
         "megamenu_style_1_6NYWtW",
         "megamenu_style_1_pqyexX",
         "megamenu_style_1_9bAfHm",
-        "megamenu_style_3_XWmdz9"
+        "megamenu_style_1_QcfBCg",
+        "megamenu_style_1_tN4CXG"
       ],
       "settings": {
-        "container": "1670",
-        "padding_full_width": 0,
+        "container": "full",
+        "padding_full_width": 10,
         "header_layout_style": "style_2",
         "header_navigation_bg": "#ffffff",
         "header_navigation_bg_gradient": "",
@@ -252,7 +264,6 @@
         "550fbd21-75fb-4051-9dee-77d91b5239f0": {
           "type": "logo",
           "settings": {
-            "logo_mobile": "shopify://shop_images/Vector_2.png",
             "logo_width_mobile": 97,
             "logo_text": "ELLA",
             "logo_font_size": 30,
