@@ -726,6 +726,25 @@ if (sticky != undefined || sticky != null) {
     }
 </script>
 
+<script>
+  // Example: Collection thumbnail URL (replace with dynamic value from Shopify/Liquid)
+  var collectionThumbnail = "{{ collection.image | img_url: '200x200' }}"; // Liquid variable
+
+  // JavaScript condition
+  if (collectionThumbnail && collectionThumbnail.trim() !== "") {
+    var img = document.createElement("img");
+    img.src = collectionThumbnail;
+    img.alt = "Collection Thumbnail";
+    img.style.width = "50px";     // Adjust size
+    img.style.height = "50px";
+    img.style.objectFit = "cover";
+    img.style.borderRadius = "50%"; // Makes it circular
+    img.style.display = "block";
+
+    document.getElementById("menu-thumbnail").appendChild(img);
+  }
+</script>
+
 {% schema %}
 {
     "name": "t:sections.header.settings.navigation.name_3",
