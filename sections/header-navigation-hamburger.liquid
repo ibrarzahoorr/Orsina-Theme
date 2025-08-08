@@ -267,6 +267,32 @@
                     </div>
                 </div>
             </div>
+            
+
+{% comment %}
+
+code by ibrar
+
+{% endcomment %}
+
+{% if link.type == 'collection_link' %}
+  {% assign coll = link.object %}
+  <a href="{{ link.url }}" class="menu-link">
+    {% if coll.image %}
+      <img 
+        src="{{ coll.image | img_url: '60x60', crop: 'center' }}" 
+        alt="{{ coll.title }}" 
+        class="menu-thumb"
+      >
+    {% endif %}
+    {{ link.title }}
+  </a>
+{% else %}
+  <a href="{{ link.url }}" class="menu-link">{{ link.title }}</a>
+{% endif %}
+
+
+
             {%- when 'header_icons' -%}
             {%- assign width_icons =  block.settings.icons_width -%}
             {%- assign width_icons_pls_1 =  block.settings.icons_width | plus: 1 -%}
