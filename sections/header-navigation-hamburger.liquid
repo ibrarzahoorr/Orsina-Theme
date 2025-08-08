@@ -211,7 +211,8 @@
     @media screen and (min-width:1281px){.header-nav-hamburger--style2 .header-logo{max-width:300px}.header-nav-hamburger--style2 .header-icons,.header-nav-hamburger--style2 .main-menu{width:100%;max-width:calc((100% - 300px)/ 2)}}
    
 
-.menu-link {
+
+    .menu-link {
   display: flex;
   align-items: center;
 }
@@ -223,7 +224,6 @@
   object-fit: cover;
   margin-right: 8px;
 }
-
 
 
 
@@ -295,21 +295,16 @@ code by ibrar
 
 {% endcomment %}
 
-{% if link.type == 'collection_link' %}
-  {% assign coll = link.object %}
-  <a href="{{ link.url }}" class="menu-link">
-    {% if coll.image %}
-      <img 
-        src="{{ coll.image | img_url: '60x60', crop: 'center' }}" 
-        alt="{{ coll.title }}" 
-        class="menu-thumb"
-      >
-    {% endif %}
-    {{ link.title }}
-  </a>
-{% else %}
-  <a href="{{ link.url }}" class="menu-link">{{ link.title }}</a>
-{% endif %}
+<a href="{{ childlink.url }}" class="menu-link">
+  {% if childlink.type == 'collection_link' and childlink.object.image %}
+    <img 
+      src="{{ childlink.object.image | img_url: '60x60', crop: 'center' }}" 
+      alt="{{ childlink.title }}" 
+      class="menu-thumb"
+    >
+  {% endif %}
+  {{ childlink.title }}
+</a>
 
 
 
