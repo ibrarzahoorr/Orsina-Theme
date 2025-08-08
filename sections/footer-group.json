@@ -249,7 +249,7 @@
             "check_text_fontsize": 14,
             "check_input_color": "#ffffff",
             "show_social": false,
-            "swap_social_position": true,
+            "swap_social_position": false,
             "social_heading": "",
             "enable_bg_social": false,
             "social_margin_top": 35,
