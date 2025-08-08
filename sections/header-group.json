@@ -265,8 +265,9 @@
         "550fbd21-75fb-4051-9dee-77d91b5239f0": {
           "type": "logo",
           "settings": {
+            "logo_mobile": "shopify://shop_images/216x104_Logo_Orsina.png",
             "logo_width_mobile": 97,
-            "logo_text": "ELLA",
+            "logo_text": "",
             "logo_font_size": 30,
             "logo_font_weight": "400",
             "logo_text_transform": "uppercase",
