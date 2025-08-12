@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image_slide": "shopify://shop_images/banner02_f8e465c2-aabe-400a-9f1b-0b83fba5d8e7.jpg",
-            "image_slide_mb": "shopify://shop_images/2401008_liv_01.webp",
+            "image_slide_mb": "shopify://shop_images/5507075_7.jpg",
             "alignment": "left",
             "enable_custom_position": true,
             "custom_horizontal": "11",
@@ -64,13 +64,13 @@
             "line_height_des": 22,
             "des_spacing_bottom": 36,
             "color_des": "#ffffff",
-            "sub_heading_mb": "",
+            "sub_heading_mb": "On The Selective Products",
             "font_size_sub_heading_mb": 14,
             "sub_heading_spacing_bottom_mb": 10,
             "font_weight_sub_heading_mb": "500",
             "border_sub_heading_mb": "none",
             "color_sub_heading_mb": "#ffffff",
-            "heading_mb": "",
+            "heading_mb": "Up To 70% OFF",
             "font_style_heading_mb": "normal",
             "font_size_heading_mb": 24,
             "line_height_heading_mb": 30,
@@ -193,6 +193,7 @@
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/top_5_living_-_blog_image.jpg",
             "title_align": "center",
             "enable_absolute": true,
             "align_items": "bottom",
@@ -242,10 +243,11 @@
             "bg_color_button_gradient_hover": ""
           }
         },
-        "16342924847ce35dfd-1": {
+        "image_MJ6BVC": {
           "type": "image",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/top_5_living_-_blog_image.jpg",
             "title_align": "center",
             "enable_absolute": true,
             "align_items": "bottom",
@@ -261,7 +263,7 @@
             "fontsize_sub_title": 14,
             "font_weight_sub_title": "500",
             "mg_bottom_sub_title": 10,
-            "title": "Bedroom",
+            "title": "Living Room",
             "color_title": "#ffffff",
             "fontsize_title": 30,
             "fontsize_title_mb": 22,
@@ -276,7 +278,7 @@
             "enable_des_hover": false,
             "button_style": "button_1",
             "button": "Shop Now",
-            "link": "shopify://collections/home-19-featured-products",
+            "link": "shopify://collections/home-19-new-products",
             "fontsize_btn": 18,
             "button_width": 190,
             "bg_opacity_button": 0,
@@ -351,7 +353,7 @@
       },
       "block_order": [
         "16342924847ce35dfd-0",
-        "16342924847ce35dfd-1",
+        "image_MJ6BVC",
         "16342924847ce35dfd-2"
       ],
       "settings": {
