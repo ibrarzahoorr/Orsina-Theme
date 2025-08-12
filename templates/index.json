@@ -1773,7 +1773,7 @@
         "view_all_font_weight": "400",
         "view_all_pos": "right",
         "view_more_mg_top": 24,
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "lookbook_style": "1",
         "enable_lookbook_width": true,
         "lookbook_width": 270,
@@ -1798,12 +1798,12 @@
         "scroll_track_bg": "#f1f1f1",
         "scroll_thumb_color": "#000000",
         "scroll_thumb_hover_color": "#444444",
-        "mg_top_desktop": 30,
-        "mg_top_tablet": 25,
-        "mg_top_mobile": 20,
-        "mg_bottom_desktop": 75,
-        "mg_bottom_tablet": 60,
-        "mg_bottom_mobile": 45
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
       }
     },
     "16575923090614cdb0": {
@@ -1877,12 +1877,12 @@
         "content_on_image": false,
         "content_bg": "",
         "content_gradient": "rgba(255, 255, 255, 0.95)",
-        "mg_top_desktop": 70,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 40,
-        "mg_bottom_desktop": 55,
-        "mg_bottom_tablet": 90,
-        "mg_bottom_mobile": 80
+        "mg_top_desktop": 10,
+        "mg_top_tablet": 10,
+        "mg_top_mobile": 10,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
       }
     }
   },
