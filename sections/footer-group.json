@@ -11,152 +11,16 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
-    "92be0095-4bce-424a-b28c-639767f5e060": {
-      "type": "policies-block",
-      "blocks": {
-        "11123b56-052a-44d9-92a9-99ff0d94e08f": {
-          "type": "Text",
-          "settings": {
-            "icon_type": "image",
-            "icon": "",
-            "icon_width": 30,
-            "icon_height": 30,
-            "icon_mg_right": 20,
-            "text": "Free Shipping US Order $499",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "400",
-            "font_style_text": "normal",
-            "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">More Details</span>",
-            "font_size_des": 14,
-            "font_size_des_mb": 14,
-            "margin_bottom_description": 0,
-            "button": "",
-            "button_font_size": 14,
-            "button_font_size_mb": 12,
-            "link": "shopify://collections"
-          }
-        },
-        "313ec706-43f9-49fb-b68a-8d735aa89e15": {
-          "type": "Text",
-          "settings": {
-            "icon_type": "image",
-            "icon": "",
-            "icon_width": 30,
-            "icon_height": 30,
-            "icon_mg_right": 20,
-            "text": "90 Days Free Returns",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "400",
-            "font_style_text": "normal",
-            "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">More Details</span>",
-            "font_size_des": 14,
-            "font_size_des_mb": 14,
-            "margin_bottom_description": 0,
-            "button": "",
-            "button_font_size": 14,
-            "button_font_size_mb": 12,
-            "link": ""
-          }
-        },
-        "8981685a-32e8-4831-8cfb-b663454a581c": {
-          "type": "Text",
-          "settings": {
-            "icon_type": "image",
-            "icon": "",
-            "icon_width": 30,
-            "icon_height": 30,
-            "icon_mg_right": 20,
-            "text": "Lifetime Warrantee Guarantee*",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "400",
-            "font_style_text": "normal",
-            "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">Find Out More</span>",
-            "font_size_des": 14,
-            "font_size_des_mb": 14,
-            "margin_bottom_description": 0,
-            "button": "",
-            "button_font_size": 14,
-            "button_font_size_mb": 12,
-            "link": ""
-          }
-        },
-        "6790f204-c27a-4a2a-ab5b-0892ddd938bd": {
-          "type": "Text",
-          "settings": {
-            "icon_type": "image",
-            "icon": "",
-            "icon_width": 30,
-            "icon_height": 30,
-            "icon_mg_right": 20,
-            "text": "Free In-Store Pickup",
-            "font_size_text": 16,
-            "font_size_text_mb": 16,
-            "mg_bottom_text": 0,
-            "font_weight_text": "400",
-            "font_style_text": "normal",
-            "description": "<span style=\"display: block;\n    text-decoration: underline;\n    text-underline-offset: 0.2em;\n    text-underline-position: from-font;\">Learn How</span>",
-            "font_size_des": 14,
-            "font_size_des_mb": 14,
-            "margin_bottom_description": 0,
-            "button": "",
-            "button_font_size": 14,
-            "button_font_size_mb": 12,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "11123b56-052a-44d9-92a9-99ff0d94e08f",
-        "313ec706-43f9-49fb-b68a-8d735aa89e15",
-        "8981685a-32e8-4831-8cfb-b663454a581c",
-        "6790f204-c27a-4a2a-ab5b-0892ddd938bd"
-      ],
-      "settings": {
-        "container": "1770",
-        "padding_full_width": 0,
-        "policies_block_swipe_on_mobile": "slider",
-        "spacing_tablet": 15,
-        "spacing_mobile": 10,
-        "policies_bg": "#e4e7e5",
-        "policies_bg_gradient": "",
-        "border": "none",
-        "border_color": "#000000",
-        "border_item": "none",
-        "item_color_border": "#000000",
-        "align_items": "center",
-        "text_align_items": "center",
-        "enable_item_distance": false,
-        "item_padding_top": 13,
-        "item_padding_bottom": 13,
-        "item_padding_left_right": 20,
-        "item_radius": 4,
-        "bg_color_block": "rgba(0,0,0,0)",
-        "border_block": "rgba(0,0,0,0)",
-        "color_block": "#232323",
-        "color_icon": "#3c3c3c",
-        "mg_top_desktop": 50,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
-        "mg_bottom_desktop": 50,
-        "mg_bottom_tablet": 50,
-        "mg_bottom_mobile": 50
-      }
-    },
     "77a3195e-4b80-497f-a648-2fe6ad255c4f": {
       "type": "footer-01",
       "blocks": {
         "bc8da69b-c11c-459b-b746-f00cdb41d01b": {
           "type": "text",
           "settings": {
-            "custom_width": "21",
+            "custom_width": "10",
             "heading": "",
-            "logo_margin_bottom": 28,
+            "logo": "shopify://shop_images/216x104_Logo_Orsina_cd113d71-6e54-4d17-b2b9-e69f11bc399e.png",
+            "logo_margin_bottom": 12,
             "subtext": "<p>685 Market Street<br/>San Francisco, CA 94105,<br/>United States</p>",
             "address_icon": "point_icon",
             "show_address_icon": false,
@@ -179,7 +43,7 @@
             "social_icon_padding": 5,
             "social_icon_border_width": 1,
             "social_icon_margin_right": 15,
-            "social_color": "#424242",
+            "social_color": "#FFFFFF",
             "social_border_color": "rgba(0,0,0,0)",
             "social_background_color": "rgba(0,0,0,0)",
             "social_background_color_gradient": "",
@@ -195,8 +59,8 @@
           "type": "link_list",
           "settings": {
             "custom_width": "16",
-            "heading": "Shop",
-            "menu": "",
+            "heading": "Who We Are",
+            "menu": "customer-account-main-menu",
             "mg_bottom": 0
           }
         },
@@ -288,8 +152,8 @@
         "110d49c1-eaa1-4fe6-b7d8-aa261738820d": {
           "type": "footer_bottom",
           "settings": {
-            "pdtop_footer_bottom": 22,
-            "pdbottom_footer_bottom": 23,
+            "pdtop_footer_bottom": 0,
+            "pdbottom_footer_bottom": 0,
             "border_top": true,
             "footer_bottom_color": "#000000",
             "border_top_color": "#d3d3d3",
@@ -297,9 +161,9 @@
             "footer_bottom_bg_gradient": "",
             "show_copyright": true,
             "show_shop_name": false,
-            "enable_layout_grid": true,
+            "enable_layout_grid": false,
             "text_fontsize": 14,
-            "copyright_content": "<p>© 2022 Ella Demo. Powered by Shopify. Shopify Themes by HaloThemes.com</p>",
+            "copyright_content": "<p>© 2025, Orsina United Kingdom. All rights reserved.</p>",
             "copyright_content_color": "#000000",
             "shop_name": "",
             "show_payment": true,
@@ -358,7 +222,7 @@
         "border_footer_top_color": "#282828",
         "pdtop_footer_top": 50,
         "pdbottom_footer_top": 50,
-        "footer_top_bg": "#ffffff",
+        "footer_top_bg": "#636657",
         "footer_top_bg_gradient": "",
         "show_footer_top_bg_img": false,
         "footer_top_bg_position_x": "center",
@@ -367,8 +231,8 @@
         "footer_top_bg_attachment": "fixed",
         "footer_top_bg_size": "contain",
         "footer_top_text_align": "left",
-        "footer_top_title_color": "#000000",
-        "footer_top_color_link": "#000000",
+        "footer_top_title_color": "#FFFFFF",
+        "footer_top_color_link": "#FFFFFF",
         "footer_top_color_link_hover": "#ededed",
         "show_border_item": false,
         "space_border_item": 65,
@@ -377,7 +241,6 @@
     }
   },
   "order": [
-    "92be0095-4bce-424a-b28c-639767f5e060",
     "77a3195e-4b80-497f-a648-2fe6ad255c4f"
   ]
 }
