@@ -1773,7 +1773,7 @@
         "view_all_font_weight": "400",
         "view_all_pos": "right",
         "view_more_mg_top": 24,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "lookbook_style": "1",
         "enable_lookbook_width": true,
         "lookbook_width": 270,
